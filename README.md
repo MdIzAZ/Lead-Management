@@ -56,15 +56,14 @@ flutter build apk
 
 
 
-
 ## 📦 Packages Used
 
-Package	                     Purpose
-provider	               State management
-sqflite	                 Local database (SQLite)
-path_provider	           Get device paths
-share_plus	             Export JSON file
-provider                 State management
-uuid                     Generate unique IDs for leads
-intl                     Date formatting
+| Package        | Purpose                               |
+|----------------|----------------------------------------|
+| provider       | State management                       |
+| sqflite        | Local SQLite database                  |
+| path_provider  | Access device file paths               |
+| share_plus     | Export / share JSON files              |
+| uuid           | Generate unique Lead IDs               |
+| intl           | Date & time formatting                 |
 
