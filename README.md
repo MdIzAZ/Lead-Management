@@ -52,7 +52,28 @@ flutter build apk
 
 ## 🏗️ Architecture
 
-<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/d3444377-7e55-44cf-94e8-5853ac03fbf6" />
+```text
+lib/
+│── data/
+│     └── db_helper.dart            → SQLite database operations
+│
+│── models/
+│     └── lead.dart                 → Lead model with map/json support
+│
+│── providers/
+│     ├── lead_provider.dart        → CRUD, pagination, search, filters
+│     └── theme_provider.dart       → Light/Dark mode switch
+│
+│── screens/
+│     ├── lead_list_screen.dart     → Lead list with filter + pagination
+│     ├── lead_form_screen.dart     → Add/Edit lead form
+│     └── lead_detail_screen.dart   → Lead details & delete
+│
+│── widgets/
+│     └── lead_card.dart            → Animated modern lead card
+│
+└── main.dart                       → App entry, providers, themes
+
 
 
 
