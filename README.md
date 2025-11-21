@@ -1,16 +1,21 @@
-📽️
+##📽️ Demo Video
+<p align="center">
+  <video src="https://github.com/user-attachments/assets/7d4bb80a-3153-4d20-928b-1ca58e466a57"
+         width="250"
+         autoplay
+         loop
+         muted
+         playsinline>
+  </video>
+</p>
 
 
-<a href="https://github.com/user-attachments/assets/628aaa47-66a5-4976-91f8-4e5214ff4acb">
-  <img src="https://github.com/user-attachments/assets/628aaa47-66a5-4976-91f8-4e5214ff4acb" width="260" />
-</a>
 
 
 
+###📱 Lead Management App (Flutter)
 
-
-📱 Lead Management App (Flutter)
-📌 App Overview
+##📌 App Overview
 
 A simple and modern Lead Management App built with Flutter.
 It allows users to:
@@ -34,7 +39,8 @@ Switch between light/dark mode
 The app follows clean UI/UX and performs fully offline.
 
 
-▶️ How to Run the App
+
+##▶️ How to Run the App
 1. Install dependencies
 flutter pub get
 
@@ -44,32 +50,14 @@ flutter run
 3. Build release APK
 flutter build apk
 
-🏗️ Architecture
+##🏗️ Architecture
 
-lib/
- │── data/
- │     └── db_helper.dart          → SQLite storage
- │
- │── models/
- │     └── lead.dart               → Lead model + mapping
- │
- │── providers/
- │     ├── lead_provider.dart      → CRUD, pagination, search, filters
- │     └── theme_provider.dart     → Light/Dark theme
- │
- │── screens/
- │     ├── lead_list_screen.dart   → Home with list, search, filters, pagination
- │     ├── lead_form_screen.dart   → Add/Edit lead form
- │     └── lead_detail_screen.dart → Lead detail view
- │
- │── widgets/
- │     └── lead_card.dart          → Animated modern lead card
- │
- └── main.dart                     → App entry + providers + theme config
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/d3444377-7e55-44cf-94e8-5853ac03fbf6" />
 
 
 
-📦 Packages Used
+
+##📦 Packages Used
 
 Package	                     Purpose
 provider	               State management
