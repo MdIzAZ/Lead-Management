@@ -74,6 +74,8 @@ lib/
 │
 └── main.dart                       → App entry, providers, themes
 
+```
+
 
 
 
