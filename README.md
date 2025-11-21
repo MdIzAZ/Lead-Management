@@ -1,4 +1,4 @@
-##📽️ Demo Video
+## 📽️ Demo Video
 <p align="center">
   <video src="https://github.com/user-attachments/assets/7d4bb80a-3153-4d20-928b-1ca58e466a57"
          width="250"
@@ -13,9 +13,9 @@
 
 
 
-###📱 Lead Management App (Flutter)
+### 📱 Lead Management App (Flutter)
 
-##📌 App Overview
+## 📌 App Overview
 
 A simple and modern Lead Management App built with Flutter.
 It allows users to:
@@ -40,7 +40,7 @@ The app follows clean UI/UX and performs fully offline.
 
 
 
-##▶️ How to Run the App
+## ▶️ How to Run the App
 1. Install dependencies
 flutter pub get
 
@@ -50,14 +50,14 @@ flutter run
 3. Build release APK
 flutter build apk
 
-##🏗️ Architecture
+## 🏗️ Architecture
 
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/d3444377-7e55-44cf-94e8-5853ac03fbf6" />
 
 
 
 
-##📦 Packages Used
+## 📦 Packages Used
 
 Package	                     Purpose
 provider	               State management
